@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% block content %}
+
+    <h2>Hola estos son los datos de tu visita<h2>
+    <p>Nombre: {{name}}<p>
+    <p>Email: {{email}}<p>
+    <p>Fecha: {{date}}<p>
+    <p>Direccion: {{address}}<p>
+
+
+    {% endblock %}
+    
+</body>
+</html>
